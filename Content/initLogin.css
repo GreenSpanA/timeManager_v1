@@ -14,8 +14,6 @@
 
     /*Если картинка должна рассмтиягиватся по экрану */
     /*background-size: 100% 100%;*/
-
-   
 }
 
 #loginForm {
@@ -25,9 +23,19 @@
 .midlleForm {
     background: white;
     position: fixed;
+    max-width: 250px;
     width: 50%;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 1;
+}
+
+.loginBlock {
+    /*position: relative;
+    width: 100%;
+    right: 0px;*/
+    width: 100%;
+    text-align: center;
+    
 }
